@@ -9,6 +9,7 @@ import bootstrap from '/public/svg/skills/bootstrap.svg';
 import bulma from '/public/svg/skills/bulma.svg';
 import c from '/public/svg/skills/c.svg';
 import canva from '/public/svg/skills/canva.svg';
+import cicd from '/public/svg/skills/cicd.svg';
 import capacitorjs from '/public/svg/skills/capacitorjs.svg';
 import coffeescript from '/public/svg/skills/coffeescript.svg';
 import cplusplus from '/public/svg/skills/cplusplus.svg';
@@ -16,15 +17,18 @@ import csharp from '/public/svg/skills/csharp.svg';
 import css from '/public/svg/skills/css.svg';
 import dart from '/public/svg/skills/dart.svg';
 import deno from '/public/svg/skills/deno.svg';
+import DevOps from '/public/svg/skills/devops.svg';
 import django from '/public/svg/skills/django.svg';
 import docker from '/public/svg/skills/docker.svg';
 import fastify from '/public/svg/skills/fastify.svg';
 import figma from '/public/svg/skills/figma.svg';
 import firebase from '/public/svg/skills/firebase.svg';
 import flutter from '/public/svg/skills/flutter.svg';
+import gazebo from '/public/svg/skills/gazebo.svg';
 import gcp from '/public/svg/skills/gcp.svg';
 import gimp from '/public/svg/skills/gimp.svg';
 import git from '/public/svg/skills/git.svg';
+import github from '/public/svg/skills/github.svg';
 import go from '/public/svg/skills/go.svg';
 import graphql from '/public/svg/skills/graphql.svg';
 import haxe from '/public/svg/skills/haxe.svg';
@@ -56,6 +60,7 @@ import premierepro from '/public/svg/skills/premierepro.svg';
 import python from '/public/svg/skills/python.svg';
 import pytorch from '/public/svg/skills/pytorch.svg';
 import react from '/public/svg/skills/react.svg';
+import ros from '/public/svg/skills/ros.svg';
 import ruby from '/public/svg/skills/ruby.svg';
 import selenium from '/public/svg/skills/selenium.svg';
 import sketch from '/public/svg/skills/sketch.svg';
@@ -72,6 +77,7 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+
 
 
 export const skillsImage = (skill) => {
@@ -93,12 +99,18 @@ export const skillsImage = (skill) => {
       return afterEffects;
     case 'css':
       return css;
+    case 'github':
+      return github;
     case 'angular':
       return angular;
+    case 'gazebo' :
+      return gazebo;
     case 'javascript':
       return javascript;
     case 'next js':
       return nextJS;
+    case 'devops':
+      return DevOps;
     case 'nuxt js':
       return nuxtJS;
     case 'react':
@@ -123,6 +135,8 @@ export const skillsImage = (skill) => {
       return mongoDB;
     case 'mysql':
       return mysql;
+    case 'cicd':
+      return cicd;
     case 'postgresql':
       return postgresql;
     case 'tailwind':
@@ -225,6 +239,8 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'ros':
+      return ros;
     default:
       break;
   }
