@@ -108,29 +108,41 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Abu Said</span>
+                <span className="text-amber-300">Teja Telagathoti</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">React</span>
+                <span className="text-amber-300">DevOps</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NextJS</span>
+                <span className="text-amber-300">ROS</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Redux</span>
+                <span className="text-amber-300">Gazebo</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Express</span>
+                <span className="text-amber-300">Rviz</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NestJS</span>
+                <span className="text-amber-300">Linux</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Machine Learning</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">TensorFlow</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Pytorch</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Git</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Github</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MySql</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MongoDB</span>
-                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Docker</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Jenkins</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">AWS</span>
+                <span className="text-gray-400">{"','"}</span>
+                <span className="text-amber-300">Ci/Cd</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
