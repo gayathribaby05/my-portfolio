@@ -14,7 +14,7 @@ export const educations = [
   {
     id: 3,
     title: "Secondary School Certificate",
-    duration: "2008 - 2019",
+    duration: "2018 - 2019",
     institution: "BRIG High School Chilakaluripet",
   }
 ]
