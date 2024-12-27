@@ -6,13 +6,13 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'AI-powered Chatbot for KITS College Website',
-        description: "Me and my team built an AI-powered Chatbot for KITS College Website. I have developed using the Dialogflow, TensorFlow with Python. Built AI assistants using OpenAI's latest model and trained using our dataset. The Chatbot fetches data from User Input and generates the college related information. ",
-        tools: ['TensorFlow', 'DialogFlow', 'Python', 'HTML', 'CSS', 'JS', 'NodeJS', 'Git', 'Github',],
-        role: 'Backend Developer',
+        name: '3-Layered-Security-Authentication-PoC',
+        description: "This project hosts a Proof of Concept (PoC) for a 3-layer security architecture implemented in Python. It demonstrates a robust security model with authentication, authorization, and data encryption to ensure maximum protection.",
+        tools: ['OpenCV', 'Python', 'Streamlit', 'MediaPipe', "Numpy",],
         code: '',
         demo: '',
-        image: crefin,
+        image: ayla,
+        role: 'ML Developer',
     },
     {
         id: 2,
@@ -31,19 +31,20 @@ export const projectsData = [
         tools: ['Html','CSS', 'Javascript', 'PHP', 'SQL', 'JSON', 'Woocommerce', ],
         code: '',
         role: 'Full Stack Developer',
-        demo: '',
+        demo: 'https://cleaneatz.in/',
         image: realEstate,
     },
-//    {
-//      id: 4,
-//      name: 'Innovarsity',
-//      description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-//      tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-//      code: '',
-//      demo: '',
-//      image: ayla,
-//      role: 'Full Stack Developer',
-//  }
+    {
+        id: 4,
+        name: 'AI-powered Chatbot for KITS College Website',
+        description: "Me and my team built an AI-powered Chatbot for KITS College Website. I have developed using the Dialogflow, TensorFlow with Python. Built AI assistants using OpenAI's latest model and trained using our dataset. The Chatbot fetches data from User Input and generates the college related information. ",
+        tools: ['TensorFlow', 'DialogFlow', 'Python', 'HTML', 'CSS', 'JS', 'NodeJS', 'Git', 'Github',],
+        role: 'Backend Developer',
+        code: '',
+        demo: '',
+        image: crefin,
+    },
+   
 ];
 
 
