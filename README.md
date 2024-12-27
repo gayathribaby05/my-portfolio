@@ -1,42 +1,38 @@
-The current `README.md` file has been analyzed. Let's update it with the new content based on your project's data format.
-
-Updating the `README.md` file with the following content:
-
-```markdown
 <p align="center" width="100%">
     <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
 </p>
 
 ---
-
-# [My Portfolio](https://github.com/tejaIG/my-portfolio)
+# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
 
 ---
 
 # Developer Portfolio
 
-### This is a professional portfolio website created using JavaScript and SCSS. It showcases various projects, skills, and experiences.
+### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
 
 ---
 
-# Language Composition
+# Demo :movie_camera:
 
-- JavaScript: 96.4%
-- SCSS: 3.6%
+![](./public/image/screen.png)
 
----
-
-## Table of Contents
-
-- [Sections](#sections)
-- [Installation](#installation)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Packages Used](#packages-used)
+## View live preview [here](https://abusaid.netlify.app/).
 
 ---
 
-# Sections
+## Table of Contents :scroll:
+
+- [Sections](#sections-bookmark)
+- [Demo](#demo-movie_camera)
+- [Installation](#installation-arrow_down)
+- [Getting Started](#getting-started-dart)
+- [Usage](#usage-joystick)
+- [Packages Used](#packages-used-package)
+
+---
+
+# Sections :bookmark:
 
 - HERO SECTION
 - ABOUT ME
@@ -49,7 +45,7 @@ Updating the `README.md` file with the following content:
 
 ---
 
-# Installation
+# Installation :arrow_down:
 
 ### You will need to download Git and Node to run this project
 
@@ -63,18 +59,18 @@ node --version
 git --version
 ```
 
----
+## <br />
 
-# Getting Started
+# Getting Started :dart:
 
 ### Fork and Clone the repo
 
 To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
 
 ```
-git clone https://github.com/<YOUR GITHUB USERNAME>/my-portfolio.git
+git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
 
-cd my-portfolio
+cd developer-portfolio
 ```
 
 ### Install packages from the root directory
@@ -97,35 +93,53 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ---
 
-# Usage
+# Usage :joystick:
 
-Customize data in the `utils/data` folder.
+Goto [emailjs.com](https://www.emailjs.com/) and create a new account for the mail sending. In free trial you will get 200 mail per month. After setup `emailjs` account, Please create a new `.env` file from `.env.example` file.
+
+Eg:
+
+```env
+NEXT_PUBLIC_EMAILJS_SERVICE_ID =
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID =
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY =
+NEXT_PUBLIC_GTM = # For site analytics
+NEXT_PUBLIC_APP_URL = "http://127.0.0.1:3000"
+NEXT_PUBLIC_RECAPTCHA_SECRET_KEY = # For captcha verification on contact form
+NEXT_PUBLIC_RECAPTCHA_SITE_KEY =
+```
+
+### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
 
 Eg:
 
 ```javascript
 export const personalData = {
-  name: "Your Name",
+  name: "ABU SAID",
   profile: "/profile.png",
-  designation: "Your Designation",
-  description: "Your Description...",
-  email: "your-email@example.com",
-  phone: "Your Phone Number",
-  address: "Your Address",
-  github: "https://github.com/your-username",
-  facebook: "https://www.facebook.com/your-profile",
-  linkedIn: "https://www.linkedin.com/in/your-profile",
-  twitter: "https://twitter.com/your-username",
-  stackOverflow: "https://stackoverflow.com/users/your-id/your-username",
-  leetcode: "https://leetcode.com/your-username/",
-  devUsername: "your-username",
-  resume: "your-resume-link",
+  designation: "Full-Stack Software Developer",
+  description: "My name is ABU SAID....",
+  email: "abusaid7388@gmail.com",
+  phone: "+8801608797655",
+  address: "Dhaka, Bangladesh",
+  github: "https://github.com/said7388",
+  facebook: "https://www.facebook.com/abusaid.riyaz/",
+  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
+  twitter: "https://twitter.com/said7388",
+  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
+  leetcode: "https://leetcode.com/said3812/",
+  devUsername: "said7388",
+  resume: "...",
 };
 ```
 
+`devUsername` Used for fetching blog from `dev.to`.
+
 ---
 
-# Packages Used
+---
+
+# Packages Used :package:
 
 | Used Package List  |
 | :----------------: |
@@ -139,4 +153,3 @@ export const personalData = {
 |    tailwindcss     |
 
 ---
-```
