@@ -1,23 +1,4 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Generated Blog Post</title>
-  <meta name="description" content="A blog post generated from OpenAI content.">
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
-    h1 { color: #333; }
-    .image { width: 100%; max-width: 600px; height: auto; margin: 20px 0; }
-    .content { font-size: 1.2em; color: #555; }
-  </style>
-</head>
-<body>
-  <h1>Generated Blog Post</h1>
-  <img class="image" src="default-image-url.jpg" alt="Blog Image"> <!-- Replace with dynamic image URL if available -->
-  <div class="content">
-    Here is a professionally written blog post based on the text and image URLs you provided:
+Here is a professionally written blog post based on the text and image URLs you provided:
 
 **Title:** Congratulations to the Finalists of the ReTech Startup Awards 2024!
 
@@ -51,6 +32,3 @@ Here are the company logos of the finalists:
 The ReTech Startup Awards 2024 have been an incredible journey, showcasing the best of the retail technology industry. We congratulate all the finalists on their outstanding achievements and wish them the best of luck in the future. Stay tuned for the final results of the awards, and get ready to celebrate the winners!
 
 **Note:** The image URLs provided will be inserted into the blog post to display the company logos.
-  </div>
-</body>
-</html>
